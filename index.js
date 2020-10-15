@@ -18,10 +18,11 @@ function makeDiv(data) {
     div.classList.add("entry")
     var img = new Image()
     img.src = data.url
+    img.classList.add("entryImg")
     var desc = document.createElement('p')
     desc.innerText = data.explanation
     var title = document.createElement('h2')
-    title.innerText = data.title
+    title.innerText = data.title + "\n" + data.date
     div.appendChild(title)
     div.appendChild(img)
     div.appendChild(desc)

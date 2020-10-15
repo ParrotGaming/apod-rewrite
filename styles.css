@@ -1,3 +1,17 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
 .entry {
     text-align: center;
+    font-family: sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.entryImg {
+    border-radius: 10px;
 }
